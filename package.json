@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vite --port=8080",
     "build": "vite build",
-    "lint": "eslint \"./src/*/**/*.{ts,vue,json}\" --fix"
+    "lint": "eslint \"./src/*/**/*.{ts,vue,json}\"",
+    "lint:fix": "yarn lint --fix"
   },
   "dependencies": {
     "vue": "^3.2.36",
